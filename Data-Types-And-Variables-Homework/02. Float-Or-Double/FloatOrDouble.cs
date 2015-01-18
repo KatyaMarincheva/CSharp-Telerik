@@ -1,9 +1,13 @@
 ﻿using System;
+using System.Globalization;
+using System.Threading;
 
 class FloatOrDouble
 {
     static void Main()
     {
+        CultureInfo en = new CultureInfo("en-US");
+        Thread.CurrentThread.CurrentCulture = en;
         double numberOne = 34.567839023;
         float numberTwo = 12.345f; 
         double numberThree = 8923.1234857;
