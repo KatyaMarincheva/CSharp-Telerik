@@ -8,7 +8,7 @@ class DeclareVariablesAutomated
 {
     static void Main()
     {
-        Console.SetWindowSize(120, 41);
+        Console.SetWindowSize(120, 30);
         Console.SetBufferSize(120, 146);
 
         List<int> intNumbers1 = new List<int> { 52130, -115, 4825932, 97, -10000 };

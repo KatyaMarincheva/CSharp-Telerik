@@ -8,7 +8,7 @@ class FloatOrDoubleAutomated
 {
     static void Main()
     {
-        Console.SetWindowSize(110, 46);
+        Console.SetWindowSize(110, 30);
         Console.SetBufferSize(110, 146);
 
         Console.WriteLine("This is my initial list of variables. \nI have stored them into a list of type string variables.\n");
