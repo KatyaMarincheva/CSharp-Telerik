@@ -2,12 +2,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Globalization;
 using System.Threading;
 
 class FloatOrDoubleAutomated
 {
     static void Main()
     {
+        CultureInfo en = new CultureInfo("en-US");
+        Thread.CurrentThread.CurrentCulture = en;
+
         Console.SetWindowSize(110, 30);
         Console.SetBufferSize(110, 146);
 
