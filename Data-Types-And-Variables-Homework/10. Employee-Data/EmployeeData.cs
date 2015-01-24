@@ -13,12 +13,15 @@ Declare the variables needed to keep the information for a single employee using
  * Use descriptive names. Print the data at the console. */
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Collections.Generic; // contains (allows the use of) the List<T> Class
+using System.Linq; // contains (allows the use of) the ToList() method
 
 class EmployeeData
 {
-    // the variables below are the parameters of the object-shaper EmployeeData class - 
+    // N.B. I have already been told that I should better use struct, not class, get/set instead of public filed -
+    // please, wait until the OOP course before aslking this from me, I haven't yet studied it :)
+
+    // the variables below are the properties of the object-shaper EmployeeData class - 
     //the class is the "cookie cutter", which will later be used to create (cut) multiple employeeData objects (cookies)
     public string FirstName;
     public string LastName;
@@ -174,7 +177,7 @@ class Employees
             Console.WriteLine("\nThere is no employee data entered under this empolyee ID, please check your notes and re-enter your correct employee ID: \n");
             input = int.TryParse(Console.ReadLine(), out inputOut);
         }
-        if (newEmployee.EmployeeId.Equals(inputOut))
+        if (newEmployee.EmployeeId.Equals(inputOut))  // calls the employee data for the employee whose ID you have entered
         {
             newEmployee.PrintEmployeeData();
             Console.WriteLine("\nThank you for testing my program!");

@@ -16,9 +16,10 @@ class StringsAndObjects
 
         string hi = "Hello";
         string name = "World!";
-        object concatenation = string.Concat(hi, " ", name);
+        object concatenation = string.Concat(hi, " ", name); // String.Concat Method - 
+        // Concatenates one or more instances of String, or the String representations of the values of one or more instances of Object.
 
-        string greating = (string)concatenation; //type casting
+        string greating = (string)concatenation; //type casting - casts the object into string
         Console.WriteLine(greating);
         Console.ReadLine();
     }

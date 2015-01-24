@@ -10,8 +10,8 @@ class VariableInHexadecimalFormat
 {
     static void Main()
     {
-        int x = 0xFE;
-        Console.WriteLine(x);
+        int x = 0xFE; // declares the int x, and assigns it with the value 0xFE
+        Console.WriteLine(x); // prints int x
         Console.ReadLine();
     }
 }

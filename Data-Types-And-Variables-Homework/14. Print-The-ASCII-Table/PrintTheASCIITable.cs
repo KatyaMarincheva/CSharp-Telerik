@@ -7,7 +7,7 @@
 using System;
 using System.Text;
 
-class PrintTheASCIITable
+class PrintTheASCIITable// necessary for the use of the Encoding Class
 {
     static void Main()
     {

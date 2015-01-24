@@ -10,7 +10,7 @@ using System.IO;
 
 class BankAccountData // the class which will be further used to create bank account objects
 {
-    // these are the properties of the bank account object
+    // these are the properties of the bank account data class
     public string HolderName = "Dimitrina Nikolova Yaneva";
     public string BankName = "Bulgarian National Bank";
     public string IBAN = "BG80 BNBG 9661 1020 3456 78";

@@ -9,8 +9,10 @@ class UnicodeCharacter
 {
     static void Main()
     {
-        char x = '\u002A';
-        Console.WriteLine(x);
+        char x = '\u002A'; // declares char x and assigns it Unicode code 42
+        // only please note, that 42 is the decimal value, while Unicode codes are hexadecimal values
+        // and the hexadecimal value corresponding to the decimal 42 is 2A
+        Console.WriteLine(x);  // prints char x
         Console.ReadLine();
     }
 }

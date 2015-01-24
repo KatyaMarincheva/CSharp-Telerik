@@ -26,7 +26,7 @@ class ComparingFloats
         List<double> floatsTwo = new List<double> { 6.01, 5.00000003, 5.00000001, 0.00000007, -4.999998, 4.999998 };
 
         // the for loop below calls the numbers at index 0, 1, etc. of the two arrays above, thus forming comparison pairs
-        // the numebr at index 0 of array floatsOne will be compaired with the number at index 0 of array floatsTwo, etc.
+        // the number at index 0 of array floatsOne will be compaired with the number at index 0 of array floatsTwo, etc.
         for (int i = 0; i <= 5; i++)
         {
             // checking if the absolute value of the difference between number 1 and number 2 will be smaller than 0.000001
