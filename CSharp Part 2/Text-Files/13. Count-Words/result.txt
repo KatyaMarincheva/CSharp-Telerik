@@ -1,0 +1,6 @@
+Word: seeds, Count: 3
+Word: and, Count: 2
+Word: the, Count: 2
+Word: Organic, Count: 1
+Word: international, Count: 1
+Word: hybrids, Count: 1
